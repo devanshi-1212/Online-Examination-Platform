@@ -12,6 +12,8 @@ const path = require("path");
 
 require("dotenv").config();
 
+const PORT = process.env.PORT || 5000;
+
 const app = express();
 
 const _dirname = path.dirname("");
@@ -126,6 +128,6 @@ app.post("/submittest", async (req, res) => {
   }
 });
 
-app.listen(5000, () => {
-  console.log("Connected to backend on port 5000.");
+app.listen(PORT, () => {
+  console.log(`Connected to backend on port ${PORT}.`);
 });
