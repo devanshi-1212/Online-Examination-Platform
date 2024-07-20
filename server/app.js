@@ -129,5 +129,5 @@ app.post("/submittest", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Connected to backend on port ${PORT}. and my mongo is ${process.env.MONGO_URL}`);
+  console.log(`Connected to backend on port ${PORT}.`);
 });
