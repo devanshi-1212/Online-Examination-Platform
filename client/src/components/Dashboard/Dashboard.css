@@ -1,0 +1,106 @@
+.contain {
+  padding: 30px;
+}
+
+.start {
+  display: flex;
+}
+
+.logoutbtn {
+  cursor: pointer;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(72, 235, 197);
+  font-size: 15px;
+}
+
+.logoutbtn:hover {
+  background-color: rgb(61, 209, 175);
+}
+
+.createtestbtnn {
+  cursor: pointer;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(94, 242, 99);
+  font-size: 15px;
+}
+
+.createtestbtnn:hover {
+  background-color: rgb(82, 214, 86);
+}
+
+.validtest {
+  display: flex;
+}
+
+.validtesttnput {
+  height: 30px;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.validtestbtn {
+  height: 30px;
+  cursor: pointer;
+  margin-top: 14px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(153, 214, 176);
+}
+
+.validtestbtn:hover {
+  background-color: rgb(122, 171, 141);
+}
+
+.displayentries {
+  display: flex;
+  margin-top: 20px;
+}
+
+.displayentries-item1 {
+  flex: 1;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: auto;
+}
+
+.displayentries-item1 p {
+  color: #000000;
+}
+
+.displayentries-item2 {
+  flex: 1;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: auto;
+}
+
+.displayentries-item2 p {
+  color: #000000;
+}
+
+.testitems {
+  display: flex;
+}
+
+.titem {
+  margin-left: 10px;
+  font-size: 15px;
+}

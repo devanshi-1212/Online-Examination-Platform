@@ -1,0 +1,33 @@
+.body {
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.item {
+  margin-bottom: 1%;
+  font-size: 20px;
+}
+
+.item input {
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border-color: rgb(164, 155, 155);
+  font-size: 15px;
+  padding: 5px;
+}
+
+.submitbtn {
+  cursor: pointer;
+  margin-top: 15px;
+  height: 30px;
+  width: 90px;
+  font-size: 17px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(62, 141, 62);
+}
+
+.submitbtn:hover {
+  background-color: rgb(29, 113, 29);
+}
