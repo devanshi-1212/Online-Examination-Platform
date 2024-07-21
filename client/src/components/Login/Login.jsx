@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     try {
-      const url = "http://localhost:5000/login";
+      const url = "http://13.235.114.225:5000/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
