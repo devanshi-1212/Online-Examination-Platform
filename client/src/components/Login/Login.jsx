@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     try {    
-      const url = "http://13.126.220.129:5000/login";
+      const url = "http://65.1.219.232:5000/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
