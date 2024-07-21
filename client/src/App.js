@@ -2,7 +2,6 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Dashboard from "./components/Dashboard/Dashboard.jsx";
 import CreateTest from "./components/CreateTest/CreateTest.jsx";
 import TakeTest from "./components/TakeTest/TakeTest.jsx";
-import TestResult from "./components/TestResult/TestResult.jsx";
 import Signup from "./components/Signup/Signup.jsx";
 import Login from "./components/Login/Login.jsx";
 import { useState } from "react";
@@ -33,10 +32,6 @@ function App() {
         <Route
           path="/taketest/:testID"
           element={<PrivateRoute element={<TakeTest />} />}
-        />
-        <Route
-          path="/testresult/:testID"
-          element={<PrivateRoute element={<TestResult />} />}
         />
       </Routes>
     </div>
