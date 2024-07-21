@@ -30,7 +30,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:5000/signup";
+      const url = "http://65.1.219.232:5000/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
