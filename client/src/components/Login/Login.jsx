@@ -28,8 +28,7 @@ const Login = () => {
       return handleError("All fields are required.");
     }
 
-    try {
-      console.log("im sending req to this http : // 13.126.220.129:5000 / login");      
+    try {    
       const url = "http://13.126.220.129:5000/login";
       const response = await fetch(url, {
         method: "POST",
