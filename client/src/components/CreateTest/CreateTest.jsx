@@ -241,7 +241,7 @@ const CreateTest = () => {
     console.log(data);
 
     axios
-      .post("http://localhost:5000/createtest", data)
+      .post("http://65.1.219.232:5000/createtest", data)
       .then((result) => {
         console.log(result.data);
         handleSuccess("Test created successfully.");
