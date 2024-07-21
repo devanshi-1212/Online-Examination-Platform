@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     try {
-      console.log("im sending req to this http : // 13.235.114.225:5000 / login");      
+      console.log("im sending req to this http : // 13.126.220.129:5000 / login");      
       const url = "http://13.126.220.129:5000/login";
       const response = await fetch(url, {
         method: "POST",
