@@ -129,5 +129,5 @@ app.post("/submittest", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Connected to backend on port ${PORT}. im changing ip address for login and only.`);
+  console.log(`Connected to backend on port ${PORT}. nginx reverse proxy i did.`);
 });
