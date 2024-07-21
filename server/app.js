@@ -129,5 +129,5 @@ app.post("/submittest", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Connected to backend on port ${PORT}. nginx reverse proxy i did.`);
+  console.log(`Connected to backend on port ${PORT}.`);
 });
