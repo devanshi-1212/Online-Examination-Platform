@@ -23,10 +23,10 @@ app.use(express.static(buildpath));
 // cors is used to accept requests coming from other ports.
 // backend is at port 500 but frontend 3000 se requrest bhejra,
 // uske lie we need cors
-app.use(express.json());
 app.use(cors());
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
+app.use(express.json());
 
 connectDB();
 
