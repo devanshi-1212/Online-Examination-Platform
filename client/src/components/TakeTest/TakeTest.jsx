@@ -188,7 +188,7 @@ const TakeTest = () => {
     const postSubmit = async () => {
       try {
         await axios
-          .get(`http://65.1.219.232:5000/submittest?code=${state[0].testID}`)
+          .get(`http://13.233.70.38:5000/submittest?code=${state[0].testID}`)
           .then((response) => {
             const origanswers = response.data;
 
@@ -216,7 +216,7 @@ const TakeTest = () => {
       console.log(data);
 
       axios
-        .post("http://65.1.219.232:5000/submittest", data)
+        .post("http://13.233.70.38:5000/submittest", data)
         .then((result) => {
           console.log(result.data);
         })
