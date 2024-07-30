@@ -22,7 +22,7 @@ const Dashboard = () => {
     const fetchCreatedTests = async () => {
       try {
         await axios
-          .get(`http://65.1.219.232:5000/findcreatedtests?user=${loggedInUser}`)
+          .get(`http://13.233.70.38:5000/findcreatedtests?user=${loggedInUser}`)
           .then((response) => {
             if (response.data.message === undefined)
               setCreatedTests(response.data);
@@ -37,7 +37,7 @@ const Dashboard = () => {
     const fetchTakenTests = async () => {
       try {
         await axios
-          .get(`http://65.1.219.232:5000/findtakentests?user=${loggedInUser}`)
+          .get(`http://13.233.70.38:5000/findtakentests?user=${loggedInUser}`)
           .then((response) => {
             if (response.data.message === undefined)
               setTakenTests(response.data);
@@ -58,7 +58,7 @@ const Dashboard = () => {
   const getTest = async () => {
     try {
       await axios
-        .get(`http://65.1.219.232:5000/taketest?code=${testCode}`)
+        .get(`http://13.233.70.38:5000/taketest?code=${testCode}`)
         .then((response) => {
           const testData = response.data;
           navigate(`/taketest/${testCode}`, {
